@@ -71,10 +71,13 @@ source venv/bin/activate
 
 ### Install Python Packages
 
+```bash
 pip install -r requirements.txt
 cd StreamLab
 chmod +x install.sh
 ./install.sh
+```
+
 
 
 ### Run Server
