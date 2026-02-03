@@ -39,35 +39,49 @@ You must have:
 # 💻 Desktop Setup (Windows / Linux / Mac)
 
 ### Clone Repository
-
-git clone https://github.com/Sourav1138/StreamLab.git  
+```
+git clone https://github.com/Sourav1138/StreamLab.git
+```
+```  
 cd StreamLab
+```
 
 ### Install FFmpeg
 
 Linux:
+```
 sudo apt install ffmpeg
+```
 
 Mac:
+```
 brew install ffmpeg
+```
 
 Windows:
 Download FFmpeg and add to PATH
 
 Check:
+```
 ffmpeg -version
+```
 
 ### Create Virtual Environment (Recommended)
-
+```
 python -m venv venv
+```
 
 Activate:
 
 Windows:
+```
 venv\Scripts\activate
+```
 
 Linux/Mac:
+```
 source venv/bin/activate
+```
 
 ### Install Python Packages
 
@@ -81,8 +95,9 @@ chmod +x install.sh
 
 
 ### Run Server
-
+```
 python app.py
+````
 
 Open browser:
 http://127.0.0.1:5000
@@ -94,32 +109,39 @@ http://127.0.0.1:5000
 > If you face Termux problems, report at: https://termux.dev/issues
 
 ### 1️⃣ Install Required Packages
-
+```
 pkg update && pkg upgrade -y  
 pkg install git python ffmpeg -y
+```
 
 ### 2️⃣ Clone the Repository
-
+```
 git clone https://github.com/Sourav1138/StreamLab.git
-
+```
+```
 cd StreamLab
+```
 
 ### 3️⃣ Create Virtual Environment (Important)
-
+```
 python -m venv venv
+```
 
 Activate it:
-
+```
 source venv/bin/activate
+```
 
 ### 4️⃣ Install Dependencies
-
+```
 pip install --upgrade pip  
 pip install -r requirements.txt
+```
 
 ### 5️⃣ Run the App
-
+```
 python app.py
+```
 
 ### 6️⃣ Open in Android Browser (Chrome)
 
