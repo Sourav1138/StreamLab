@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Application Data
+static/video/*
+static/uploads/*
+!static/video/.gitkeep
+!static/uploads/.gitkeep
